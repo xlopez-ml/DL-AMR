@@ -1,4 +1,4 @@
-# DeepAMR
+# DeepAMR (Repository in constant updating)
 Complete methodology based on deep learning (DL) and transfer learning for the direct analysis of raw
 MS data for the identification of antibiotic resistance in three different bacterial species, Escherichia coli, Klebsiella pneumoniae and Staphylococcus aureus.
 
