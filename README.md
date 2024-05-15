@@ -1,11 +1,11 @@
-# DeepAMR
+# MSDeepAMR
 ## Abstract
 Complete methodology based on deep learning (DL) and transfer learning for the direct analysis of raw
 MS data for the identification of antibiotic resistance in three different bacterial species, Escherichia coli, Klebsiella pneumoniae and Staphylococcus aureus.
 
-here we made available the models resulting from the study "DeepAMR: Antimicrobial resistance prediction based on deep neural networks and transfer learning".
+here we made available the models resulting from the study "MSDeepAMR: antimicrobial resistance prediction based on deep neural networks and transfer learning".
 
-for more details about the model and the corresponding research see the article at: (link to article)
+for more details about the model and the corresponding research see the article at: https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2024.1361795/full
 ## Data : (binning.py)
 For this work we have used data from <a href="https://doi.org/10.5061/dryad.bzkh1899q" rel="nofollow">DOI: 10.5061/dryad.bzkh1899q</a>, we created our own datasets following the author's recommendations regarding the size of the bins and how to handle samples with inconclusive resistance profiles. We have some examples of the data sets in use in the /dataset folder. To create your own datasets, download the author's data and run binning.py. Set the following variables
 - ms_files_path: Path to mass spectra files.
@@ -19,7 +19,7 @@ In the examples folder you will find two Google Colab notebooks, the first one i
 
 DeepAMR_transfer_learning.ipynb contains an example of using one of the pre-trained models to evaluate it in the external databases present in <a href="https://doi.org/10.5061/dryad.bzkh1899q" rel="nofollow">DOI: 10.5061/dryad.bzkh1899q</a>.
 
-## Loading DeepAMR models
+## Loading MSDeepAMR models
 The models were trained using keras version 2.4.3 and tensorflow version 2.3.0 and saved in .h5 format.
 ![esquema paper](https://user-images.githubusercontent.com/43461313/201794393-78c50952-ff42-425b-b5ee-c275481e835d.png)
 
